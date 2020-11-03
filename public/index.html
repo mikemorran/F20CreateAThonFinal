@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Pumpkin</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5.serialserver@0.0.29/lib/p5.serialport.js"></script>
+</head>
+
+<body id="body">
+    <div class="container1">
+        <div class="pumpkin" id="pumpkinID">
+            <div class="texture"></div>
+            <div class="root"></div>
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <div class="mouth left"></div>
+            <div class="mouth right"></div>
+            <div class="teeth"></div>
+        </div>
+
+
+    </div>
+
+    <div class="container2">
+            <button type="button" id="button1">DONT BURN!!!</button>
+            <button type="button" id="button2">BURN!!!</button>
+            <div class="fire"></div>
+            <div class="fire"></div>
+    </div>
+    <script src="app.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script> var socket = io(); </script>
+</body>
+
+</html>
